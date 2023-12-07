@@ -1,18 +1,14 @@
 psKC : Point-Set Kernel Clustering
 ==================================
 
+The data file must be in LibSVM format.
+
 Command line parameters
 -----------------------
 
-* --alg <aNNE, iNNE, DotProduct> : DotProduct is for pre-generated data file.
-* --data_file_format <CSV, libSVM>
-* --src_dir <data directory>
-* --src_file_name <file name>
+* --data <FQPN of data file>
 * --growth_rate <value>
 * --threshold <value>
-
-The following parameters are use for aNNE and iNNE.
-
 * --random_seed <value>
 * --sample_size <value>
 * --sets <value>
